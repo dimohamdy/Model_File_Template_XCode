@@ -1,4 +1,3 @@
-# Welcome to the Model_File_Template_XCode wiki!
 
 ## Create Model Class for your ViewController that can get Data from API and DataBase
 

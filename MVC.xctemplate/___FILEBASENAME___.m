@@ -51,13 +51,11 @@
         //No Internet Connection
         reachability.unreachableBlock = ^(Reachability * reachability)
         {
-            //Get From Data From DataBase
 
             NSString * temp = [NSString stringWithFormat:@"GOOGLE Block Says Unreachable(%@)", reachability.currentReachabilityString];
             NSLog(@"%@", temp);
             
-            completion(/**(Return __Data__)*/);
-            
+              //Show Not internet connection and there is no Data in DataBase
         };
     }
     
